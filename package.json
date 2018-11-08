@@ -1,0 +1,35 @@
+{
+  "name": "vue-ts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "local": "vue-cli-service serve --mode localhost",
+    "dev": "vue-cli-service serve --mode development",
+    "test": "vue-cli-service serve --mode test",
+    "prod": "vue-cli-service serve --mode production",
+    "build-prod": "vue-cli-service build --mode production",
+    "build-dev": "vue-cli-service build --mode development",
+    "build-test": "vue-cli-service build --mode test",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "element-ui": "^2.4.5",
+    "vue": "^2.5.17",
+    "vue-class-component": "^6.0.0",
+    "vue-property-decorator": "^7.0.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.1.1",
+    "@vue/cli-plugin-typescript": "^3.1.1",
+    "@vue/cli-service": "^3.1.1",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "typescript": "^3.0.0",
+    "vue-cli-plugin-element": "^1.0.0",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
